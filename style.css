@@ -17,6 +17,11 @@ body{
     padding: 40px 35px;
     text-align: center;
 }
+#headline{
+    text-align: center;
+    font-weight: 600;
+    /* font-weight: 400; */
+}
 
 .search{
     width: 100%;
@@ -48,11 +53,13 @@ body{
     cursor: pointer;
 }
 
-.search button img{
+/* .search button img{
     width: 16px;
+} */
 
+.search button i{
+    font-size: 20px;
 }
-
 .weather-icon{
     width: 170px;
     margin-top: 30px;
@@ -104,23 +111,43 @@ body{
     display: none;
 }
 
+@media only screen and (max-width: 600px) {
+    
+    .card{
+        width: 90%;
+        max-width: 370px;
+        margin: 60px auto 0;
+        padding: 40px 25px;
+        
+    }
+    #headline{
+        
+        
+        font-weight: 400;
+    }
+
+    .search input{
+        
+        padding: 15px 20px;
+        height: 45px;
+        border-radius: 30px;
+        /* flex: 1; */
+        /* width: ; */
+        margin-right: 18px;
+        font-size: 15px;
+    }
+
+    .search button{
+        
+        border-radius: 50%;
+        width: 45px;
+        height: 45px;
+        
+    }
+    .search button i{
+        font-size: 16px;
+    }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
